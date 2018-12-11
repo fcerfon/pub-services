@@ -1,0 +1,27 @@
+{
+  "name": "pub-services",
+  "version": "1.0.0",
+  "description": "Project constituting of two services, one for a list of pubs and one to get opened pubs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fcerfon/pub-services.git"
+  },
+  "keywords": [
+    "nodejs",
+    "services"
+  ],
+  "author": "fcerfon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fcerfon/pub-services/issues"
+  },
+  "homepage": "https://github.com/fcerfon/pub-services#readme",
+  "dependencies": {
+    "moment": "^2.22.2"
+  }
+}
