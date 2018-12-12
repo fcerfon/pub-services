@@ -1,0 +1,77 @@
+[
+    {
+        "name": "Arawak",
+        "owner": {
+            "firstName": "Nicolas",
+            "lastName": "Hodicq",
+            "mail": "nhodicq@bewizyu.com"
+        },
+        "openDays": [
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+        ],
+        "openHours": {
+            "start": 5,
+            "end": 1
+        },
+        "beers": [
+            {
+                "type": "Blonde",
+                "name": "Triple Karmeliet"
+            }
+        ]
+    },
+    {
+        "name": "Maelstrom",
+        "owner": {
+            "firstName": "Florent",
+            "lastName": "Cerfon",
+            "mail": "florent.cerfon@gmail.com"
+        },
+        "openDays": [
+            "Monday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+        ],
+        "openHours": {
+            "start": 8,
+            "end": 12
+        },
+        "beers": [
+            {
+                "type": "Brune",
+                "name": "Malheur 12"
+            }
+        ]
+    },
+    {
+        "name": "Kaelstro",
+        "owner": {
+            "firstName": "Kael",
+            "lastName": "Strahn",
+            "mail": "kael.strahn@gmail.com"
+        },
+        "openDays": [
+            "Monday",
+            "Tuesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+        ],
+        "openHours": {
+            "start": 8,
+            "end": 12
+        },
+        "beers": [
+            {
+                "type": "Blonde",
+                "name": "Kronenbourg"
+            }
+        ]
+    }
+]
