@@ -1,17 +1,19 @@
 function getPubs() {
-    var pubs = require('./pubs.json');
+    var pubs = require('../mocks/pubs.json');
     return pubs;
 }
 
 function getOpenPubs(date) {
+
     var moment = require('moment');
-    var date = date || moment().format();
     moment().locale('fr');
-    var pubs = require('./pubs.json');
+
+    var date = date || moment().format();
     var openDays = [];
     var openHours = {};
     var day = '';
     var hour = 12;
+    var pubs = require('../mocks/pubs.json');
 
     pubs.forEach(function (pub, index, array) {
         openDays = pub.openDays;

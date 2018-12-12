@@ -48,5 +48,30 @@
                 "name": "Malheur 12"
             }
         ]
+    },
+    {
+        "name": "Kaelstro",
+        "owner": {
+            "firstName": "Kael",
+            "lastName": "Strahn",
+            "mail": "kael.strahn@gmail.com"
+        },
+        "openDays": [
+            "Monday",
+            "Tuesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+        ],
+        "openHours": {
+            "start": 8,
+            "end": 12
+        },
+        "beers": [
+            {
+                "type": "Blonde",
+                "name": "Kronenbourg"
+            }
+        ]
     }
 ]
