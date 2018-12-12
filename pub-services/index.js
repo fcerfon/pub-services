@@ -1,8 +1,7 @@
-var pubServices = require('./services/pubs.service');
+var pubService = require('./services/pubServices');
 
-var openPubs = pubServices.getOpenPubs();
-console.log(openPubs);
-
-services: {
-    pubServices : pubServices
+module.exports = {
+    "services": {
+        "pubService" : pubService
+    }
 }
