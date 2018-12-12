@@ -26,12 +26,8 @@ function getOpenPubs(date) {
     moment().locale('fr');
 
     var date = date || moment().format();
-    var openDays = [];
-    var openHours = {};
-    var day = '';
-    var hour = 12;
 
-    day = moment().format('dddd');
+    var day = moment().format('dddd');
 
     var pubs = getPubs().filter(pub => pub.openDays.includes(day));
 
